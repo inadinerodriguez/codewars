@@ -6,4 +6,5 @@ function boolToWord( bool ){
     return bool ? 'Yes':'No';
 }
 
-
+// convert to arrow function
+const boolToWord = bool => bool ? 'Yes' : 'No';
