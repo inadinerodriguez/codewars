@@ -1,0 +1,18 @@
+/*
+maximum and minimum, etc., depending on the language ) that receive a list of integers as input, and return the largest and lowest number in that list, respectively.
+*/
+/*
+var min = function(list){
+    return Math.min(...list);
+    return list[0];
+}
+
+var max = function(list){
+    return Math.max(...list);
+    return list[0];
+}
+*/
+
+// refactored
+var min = (list) => Math.min(...list);
+var max = (list) =>  Math.max(...list);
